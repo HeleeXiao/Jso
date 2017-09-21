@@ -1,0 +1,24 @@
+<?php
+/**
+ * auto create file for commands
+ */
+namespace $repositoryNamespace;
+
+use $modelNamespace;
+use App\Repositories\BaseRepository;
+use App\Traits\RepositoryDBTrait;
+
+/**
+ * Class $className
+ * @package $repositoryNamespace
+ */
+class $className extends BaseRepository implements $interfaceName
+{
+    use RepositoryDBTrait;
+
+    /**
+     * @var string
+     */
+    protected $model = $ModelName::class;
+
+}

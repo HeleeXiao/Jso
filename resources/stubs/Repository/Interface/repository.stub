@@ -1,0 +1,40 @@
+<?php
+
+namespace $repositoryNamespace;
+
+
+use $modelNamespace;
+
+/**
+ * Interface $className
+ * @package  $repositoryNamespace
+$propertyString
+
+interface $className
+{
+    /**
+     * @param int $id
+     *
+     * @return $ModelName
+     */
+    public function find($id);
+
+    /**
+     *
+     * @return bool
+     */
+    public function save();
+
+    /**
+     * @return $this
+     */
+    public function write();
+
+    /**
+     * @return $ModelName
+     */
+    public function getCurrentInstance();
+
+    public function init();
+
+}

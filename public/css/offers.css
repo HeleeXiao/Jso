@@ -1,0 +1,228 @@
+header{
+    height: 70px;
+    line-height: 70px;
+}
+header .container{
+    padding: 0 15px;
+}
+li{
+    list-style: none;
+}
+.red{
+    color: #e20;
+}
+.logo{
+    font-size: 30px;
+    text-decoration: none!important;
+}
+header .name{
+    display: inline-block;
+    margin: 0 8px;
+}
+.flow{
+    margin-top: 140px;
+}
+.flow ul{
+    height: 35px;
+    line-height: 35px;
+    background: url("../images/hire_flow.gif") no-repeat;
+    background-size:100% 35px;
+    overflow: hidden;
+}
+.flow ul li{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.companyInf{
+    margin-bottom: 50px;
+}
+.companyInf .container{
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.companyInf .must-symbol{
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 2px;
+    color: #ff552e;
+    vertical-align: middle;
+    display: inline-block;
+}
+.companyInf dl{
+    vertical-align: middle;
+}
+.companyInf dl dd,.companyInf dl dt{
+    line-height: 36px;
+}
+.companyInf dl dt{
+    text-align: right;
+}
+.companyInf .title{
+    vertical-align: middle;
+    font-size: 14px;
+}
+.companyInf dl dt.pull-left{
+    width: 88px;
+}
+.companyInf .com-nameTips{
+    margin-left: 20px;
+    color: #999;
+}
+.companyInf .com-nickname{
+    width: 230px;
+    height: 34px;
+    padding-left: 10px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+.companyInf  .industry-select{
+    display: inline-block;
+    width: 340px;
+    height: 34px;
+    padding-left: 10px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    position: relative;
+}
+.companyInf  .industry-select .icon-more{
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    color: #999;
+}
+.companyInf  .industry-select #seleIndCate{
+    display: inline-block;
+    overflow: hidden;
+    max-width: 290px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #999;
+}
+.belongs-industry select,#comType,#comSize,#salary,#education,#years,#job_type,#com_type,#com_persons{
+    width: 230px;
+    height: 36px;
+    border: 1px solid #ddd;
+}
+#com-synop,#requirements,#com_profile{
+    width: 100%;
+    height: 238px;
+    border: 1px solid #ddd;
+}
+#com-linkman,#com-phone1,#com-phone2,#com-mail,#com-web,#addrDetail,#num,#contacts,#tel1,#tel2,#email,#com_url,#address{
+    width: 242px;
+    height: 38px;
+    border: 1px solid #ddd;
+}
+.phone2{
+    margin-top: 14px;
+}
+.list-welDefult label{
+     display: inline-block;
+     margin-right: 7px;
+     padding: 0 10px;
+     cursor: pointer;
+     color: #333;
+     border: 1px solid #ddd;
+     border-radius: 2px;
+    line-height: 26px;
+ }
+.list-welDefult label input{
+    display: none;
+}
+.list-welDefult label.active{
+    color: #ff552e;
+    border: 1px solid #ff552e;
+    border-radius: 2px;
+}
+#submit{
+    font-size: 20px;
+    line-height: 36px;
+    width: 260px;
+    height: 46px;
+    margin: 0 auto;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    border-radius: 2px;
+    background: #ff552e;
+}
+.com-submit{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.wrong-tip{
+    font-size: 12px;
+    line-height: 36px;
+    color: #ff552e;
+    margin-left: 20px;
+    display: none;
+}
+.wrong-tip i{
+    color: white;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 9px;
+    background-color: #ff552e;
+    font-size: 12px;
+}
+.addPhoneBtn,.removePhoneBtn{
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #5d9cec;
+}
+label{
+    vertical-align: middle;
+}
+label input{
+    vertical-align: sub;
+}
+.public{
+    margin-left: 10px;
+}
+.public input{
+    margin-right: 5px;
+}
+#area_city_level_id,#area_first_level_id{
+    width: 129px;
+    height: 34px;
+    margin-right: 10px;
+    padding-left: 10px;
+    border: 1px solid #ddd;
+}
+
+.list-welDefult label.active{
+    color: #ff552e;
+    border: 1px solid #ff552e;
+    border-radius: 2px;
+}
+.student{
+    margin-left: 10px;
+}
+@media (max-width: 767px){
+    .companyInf .container{
+        padding: 0;
+    }
+    .com-nameTips{
+        display: block;
+    }
+    #selProvince,#selCity{
+        width: 94px;
+    }
+    .companyInf dl dt,.companyInf dl dd{
+        padding-left: 0;
+    }
+    .wrong-tip,.student{
+        margin-left: 0;
+    }
+    .flow{
+        margin-top: 90px;
+    }
+}
+

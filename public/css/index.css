@@ -1,0 +1,295 @@
+/*body{background-color: rgb(248,248,248)}*/
+li{
+    list-style: none;
+}
+header{
+    position: relative;
+}
+#commonTopbar{
+    position: fixed;
+}
+.commonNav{
+    border-bottom: 1px solid #eee;
+    height: 63px;
+    width: 100%;
+    line-height: 63px;
+    padding: 0 16px;
+    background-color: rgb(249,249,249);
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,0);
+    z-index: 9;
+    top:35px;
+}
+.commonNav .logo a{
+    font-size: 0.42667rem;
+    text-decoration: none;
+}
+.commonNav .search{
+    background-color: #ff552e;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 1rem;
+}
+.commonNav .search:hover{
+    background-color: #EA7759;
+}
+.commonNav .form-control{
+    display: inline-block;
+    width: 80%;
+    background-color: rgb(249,249,249);
+}
+.commonNav .inputContent .input-group{
+    width: 100%;
+}
+.commonNav div.container{
+    padding: 0;
+}
+.commonNav div.container .logo{
+    padding-left: 0;
+    text-align: center;
+}
+.commonNav .inputContent .input-group .form-control{
+    font-size: 0.2rem;
+    border: 2px solid #ff552e;
+    border-right: none;
+    box-sizing: border-box;
+    height: 36px;
+}
+.commonNav .inputContent .input-group .form-control:focus{
+    outline:none;
+    box-shadow: none;
+}
+.commonNav .publish a{
+    font-size: 0.24rem;
+    color: white;
+    background-color: #ff552e;
+    font-weight: bold;
+}
+.commonNav .inputContent .input-group .input-group-addon{
+    font-size: 0.2rem;
+    background-color: #ff552e;
+    color: white;
+    font-weight: 600;
+    width: 1.2rem;
+    height: 36px;
+    cursor: pointer;
+    border:1px solid #ff552e;
+}
+.commonNav.row{
+    padding: 0;
+    margin: 0;
+}
+ #exampleInputAmount{
+    width: 100%!important;
+}
+.inputContent{
+    vertical-align: middle;
+    position: relative;
+    margin-top: 14px;
+}
+.inputContent .minico{
+    position: absolute;
+    left: 8px;
+    top: 11px;
+    font-size: 0.2rem;
+    z-index: 99;
+    color: #999;
+}
+.inputContent input{
+    vertical-align: middle;
+    text-indent: 0.24rem;
+    height: 36px;
+}
+.inputContent button{
+    vertical-align: middle;
+}
+header nav div .user{
+    margin-top: 5px;
+    font-size: 0.4rem;
+}
+header nav div .user a{
+    text-decoration: none;
+}
+
+#publish{
+    display: none;
+}
+.line{
+    display: none;
+}
+.navBar{
+    padding: 116px 0 30px;
+    border-bottom: 1px solid #eee;
+    margin: 0 auto 0;
+}
+.navBar{
+    background-color: white;
+}
+.navBar .row{
+    height: 0.5rem;
+    line-height: 0.5rem;
+}
+.navBar .row a{
+    color: black;
+    font-size: 0.2rem;
+    text-decoration: none;
+}
+.navBar .row a:hover{
+    color: #ff552e;
+}
+
+.content{
+    /*background-color: white;*/
+}
+.content h4{
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+    background-color: white;
+    margin: 0 auto;
+}
+.content .content-list{
+    background-color: white;
+    padding-left: 0;
+    padding-right: 0;
+}
+.content .content-list li{
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+.content .content-list li:hover{
+    background:rgb(249,249,249)
+}
+.content .content-list li .name{
+    font-size: 0.26rem;
+    overflow: hidden;
+    font-weight: bold;
+}
+.content .content-list li .salary{
+    color: #ff552e;
+}
+.content .content-list li .salary span{
+    font-size: 0.26rem;
+    font-weight: bold;
+}
+
+.content .content-list li .job_wel span{
+    display: inline-block;
+    background: #F8F8F8;
+    margin-right: 6px;
+    font-size: 12px;
+    color: #6C95BA;
+    padding: 4px;
+}
+.content .content-list li .job_require span{
+    display: inline-block;
+    font-size: 14px;
+    color: #999;
+    line-height: 18px;
+    margin:0 0.2rem;
+}
+.content .content-list li .job_require span:first-child{
+    margin-left: 0;
+}
+.content .content-list .comp_name{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.content .content-list li .comp{
+    top:-50%;
+    transform: translate(0,50%);
+}
+.content .content-list li .apply{
+    margin-top: 0.46rem;
+}
+.content .content-list li .apply a{
+    background-color: #ff552e;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+}
+.content .content-list li .apply a:hover{
+    background-color: #EA7759;
+}
+.company{
+    display: none;
+}
+footer{
+    background-color: #333;
+    color: white;
+    padding-top: 20px;
+}
+.g-footer-navb{
+    margin-bottom:0.3rem;
+}
+
+
+
+@media (max-width: 767px){
+    header nav.row{
+        width: 100%;
+        top:0;
+    }
+    header section.container{
+        padding: 80px 0 30px;
+    }
+    header nav .form-control{
+        width: 70%;
+    }
+    .comp{
+        display: none;
+    }
+    header nav div .user{
+        margin-top: 0;
+        padding: 0 5px 0 0;
+        font-size: 0.3rem;
+    }
+    .company{
+        display: block;
+    }
+    .content .content-list li .name{
+        font-size: 0.5rem;
+    }
+    .content .content-list li .salary span{
+        font-size: 0.5rem;
+    }
+    .content .content-list li .apply{
+        margin-top: 0.8rem;
+    }
+    .g-footer-navb{
+        margin-bottom:0.5rem;
+    }
+    header nav .search{
+        width: 1.6rem;
+    }
+    nav.row .container{
+        padding: 0;
+    }
+    .publish{
+        display: none;
+    }
+    #publish{
+        display: inline-block;
+        color: black;
+        font-size: 0.3rem;
+    }
+    #publish:hover{
+        color: #ff552e;
+    }
+    .line{
+        display: inline-block;
+        font-size: 0.4rem;
+    }
+    header nav div.container .logo{
+        padding:0 0 0 15px;
+    }
+}
+@media (min-width: 768px){
+
+}
+@media (min-width: 992px){
+
+}
+
+

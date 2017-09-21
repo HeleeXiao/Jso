@@ -1,0 +1,53 @@
+i{font-style: normal}
+#commonTopbar{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    background-color: rgb(249,249,249);
+    border-bottom: 1px solid #eee;
+    z-index: 9;
+    top:0;
+}
+#commonTopbar .pull-left{
+    color: #ff552e;
+    font-weight: bold;
+}
+#commonTopbar .pull-right{
+    width: 50%;
+    vertical-align: middle;
+}
+#commonTopbar .pull-right a{
+    color: black;
+}
+#commonTopbar .pull-right span{
+    vertical-align: middle;
+}
+#commonTopbar a:hover{
+    text-decoration: none;
+    color: #ff552e;
+}
+.commonNav .user .glyphicon-user{
+    font-size: 0.4rem;
+    display: inline-block;
+    margin-top: 14px;
+}
+@media (max-width: 767px){
+    #commonTopbar{
+        display: none;
+    }
+    .commonNav{
+        top: 0;
+    }
+    .commonNav div.container .user{
+        padding-left: 0;
+    }
+    .navBar{
+        padding: 84px 0 30px;
+    }
+    .commonNav div.container .logo{
+        padding-right: 0;
+    }
+    .inputContent{
+        padding-right: 0;
+    }
+}

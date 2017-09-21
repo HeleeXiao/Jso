@@ -1,0 +1,95 @@
+body{
+    background: url("../images/loginBg.jpg") no-repeat 0 0;
+    overflow: hidden;
+}
+.login{
+    width: 420px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.login .outBox a{
+    color: white;
+    height: 18px;
+    line-height: 18px;
+    font-size: 14px;
+}
+.login .login-box{
+    background-color: white;
+    padding: 40px;
+}
+.login .login-box .inBox{
+    display: none;
+}
+.login .login-box .logo{
+    font-size: 0.42667rem;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.login .login-box .logo a{
+    text-decoration: none;
+}
+.login .login-box .forgetPassword a{
+    display: inline-block;
+    margin: 10px;
+
+}
+.login .login-box .username,
+.login .login-box .password,
+.login .login-box .email,
+.login .login-box .rePassword{
+    margin: 20px 0;
+}
+.login .login-box .username input,
+.login .login-box .password input,
+.login .login-box .email input,
+.login .login-box .rePassword input{
+    height: 40px;
+}
+.login .login-box .submit{
+    margin: 30px 0;
+}
+.login .login-box .agreement label{
+    vertical-align: middle;
+}
+.login .login-box .agreement input{
+    vertical-align: middle;
+}
+
+
+
+
+
+@media (max-width: 767px){
+    body{
+        background: white;
+    }
+    .login{
+        width: 100%;
+        height: 100%;
+    }
+    .login .outBox{
+         display: none;
+    }
+    .login .inBox a{
+        font-size: 14px;
+    }
+    .login .login-box .inBox{
+        display: block;
+    }
+    .login .login-box .logo{
+        margin-top: 3.4rem;
+        font-size: 0.6rem;
+    }
+    .login .login-box{
+        padding: 20px;
+    }
+    .register .login-box .logo{
+        margin-top: 2.4rem;
+    }
+}
+
+
+
