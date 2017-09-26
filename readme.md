@@ -12,17 +12,10 @@
 ### 基础安装
 	运行以下
 
-    ```
-    composer update
-    composer dump
-    ```
-	```
-    php artisan key:generate
-    ```
-	```
-    php artisan migrate
-    ```
-    ...
-    ```
+    * composer update
+    * composer dump
+    * php artisan key:generate
+    * php artisan migrate
+    
 
 
